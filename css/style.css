@@ -1,0 +1,57 @@
+@font-face {
+    font-family: mplus-1p-regular;
+    src:url(../font/mplus-1p-regular.ttf)  format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', 'mplus-1p-regular', sans-serif;
+    font-weight: 300;
+}
+
+html, body {
+    height:100%;
+}
+
+body {
+    background-color:#fff;
+    color:#444;
+}
+
+#header > .title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    text-align: center;
+}
+
+ul.menu{
+    display: table;
+    margin: 0 auto;
+    margin-top: 46px;
+    padding-bottom: 10px;
+}
+
+ul.menu > li {
+    display: table-cell;
+    padding:0px 8px;
+}
+
+ul.menu > li > a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 16px 32px;
+    transition: background-color 0.3s;
+}
+
+section {
+    padding-top: 40px;
+}
+
+section > .title {
+    text-align: center;
+    font-size: 50px;
+}
