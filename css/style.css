@@ -26,19 +26,19 @@ body {
     text-align: center;
 }
 
-ul.menu{
+ul.nav {
     display: table;
     margin: 0 auto;
     margin-top: 46px;
     padding-bottom: 10px;
 }
 
-ul.menu > li {
+ul.nav > li {
     display: table-cell;
     padding:0px 8px;
 }
 
-ul.menu > li > a{
+ul.nav > li > a{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     text-decoration: none;
@@ -55,3 +55,28 @@ section > .title {
     text-align: center;
     font-size: 50px;
 }
+
+section > .detail {
+    padding: 0 40px;
+}
+
+section > div.detail > table > tbody > tr > td {
+    padding-bottom: 20px;
+}
+
+section > div.detail > table > tbody > tr > td {
+    min-width: 320px;
+}
+
+
+/* section > .detail > .introduction > h1 {
+    padding-right: 20;
+}
+
+section > .detail > .introduction > p {
+    padding:0px 8px;
+}
+
+section > .detail > .introduction {
+    height: 120px;
+} */
